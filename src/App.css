@@ -2,33 +2,7 @@
 *{
     text-decoration: none;
 }
-/*nav {
-    background: #0f9b8e;
-    font-family: Calibri;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.a{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.title{
-    font-size: 35px;
-    font-weight: 600;
-    color: white;
-}
-li{
-    list-style: none;
-    display: inline-block;
-}
-li a{
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
-}
-*/ 
+
 @media  (min-width: 768px) {
 
     nav {

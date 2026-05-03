@@ -9,9 +9,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
     return (
         <Router>
-      
             <div>
-                      <nav>
+                <nav>
                         <div class="a">
                         <h1 class="title">Pharmacy App</h1>
                             <ul>
@@ -22,14 +21,12 @@ function App() {
                             </ul>
                         </div>
                     </nav>
-              
-                <Routes>
+              <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
-      
     </div >
   </Router>
   );
