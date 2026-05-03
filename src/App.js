@@ -4,6 +4,7 @@ import Register from "./pages/Register";
 import About from "./pages/About";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import React from 'react';
 
 
 function App() {
@@ -22,13 +23,14 @@ function App() {
                         </div>
                     </nav>
               <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={<Home />} /> 
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
     </div >
   </Router>
+
   );
 }
 
