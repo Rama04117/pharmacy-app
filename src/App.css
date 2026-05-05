@@ -1,9 +1,4 @@
-﻿
-*{
-    text-decoration: none;
-}
-
-@media  (min-width: 768px) {
+﻿@media  (min-width: 768px) {
 
     nav {
         background: #0f9b8e;
@@ -29,12 +24,13 @@
         display: inline-block;
     }
 
-        li a {
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            margin-right: 25px;
-        }
+    .link {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 20px;
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -58,12 +54,13 @@
         display: inline-block;
     }
 
-        li a {
-            color: white;
-            font-weight: bold;
-            font-size: 16px;
-            margin-right: 15px;
-        }
+    .link {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        margin-right: 15px;
+        text-decoration: none;
+    }
         
     .title {
         font-size: 28px;
